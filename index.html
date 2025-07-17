@@ -1,120 +1,173 @@
 <!DOCTYPE html><html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Proposta Digital - Heina Cosméticos</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proposta Heina Cosméticos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
   <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    * {
       margin: 0;
       padding: 0;
-      background-color: #fefefe;
-      color: #333;
-    }
-    header {
-      background-color: #00AEEF;
-      color: white;
-      padding: 2rem;
-      text-align: center;
-    }
-    section {
-      padding: 2rem;
-      max-width: 800px;
-      margin: auto;
-    }
-    h1, h2 {
-      color: #00547C;
-    }
-    .destaque {
-      background-color: #E6F7FF;
-      padding: 1rem;
-      border-left: 5px solid #00AEEF;
-      margin: 1rem 0;
-    }
-    .oferta {
-      background-color: #fff3cd;
-      padding: 1.5rem;
-      border: 2px solid #ffeeba;
-      text-align: center;
-      margin: 2rem 0;
-    }
-    .preco-riscado {
-      text-decoration: line-through;
-      color: #888;
-    }
-    .preco-oferta {
-      font-size: 1.5rem;
-      color: #d62828;
-      font-weight: bold;
-    }
-    .botao {
-      background-color: #d62828;
-      color: white;
-      padding: 1rem 2rem;
-      text-decoration: none;
-      border-radius: 8px;
-      font-size: 1rem;
-      display: inline-block;
-      margin-top: 1rem;
-    }
-    .botao:hover {
-      background-color: #a61c1c;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.8rem;
-      background-color: #f0f0f0;
-      color: #777;
-    }
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }body {
+  background-color: #f8fafc;
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #00547c;
+  color: #fff;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.container {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.section {
+  margin-bottom: 2.5rem;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.section h2 {
+  color: #00547c;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.section ul li::before {
+  content: "✔️ ";
+  color: #00aeef;
+}
+
+.pricing-box {
+  background-color: #e0f2fe;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.pricing-box .price-original {
+  text-decoration: line-through;
+  color: #6b7280;
+}
+
+.pricing-box .price-final {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #d62828;
+  margin-top: 0.5rem;
+}
+
+.cta {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.cta a {
+  display: inline-block;
+  background-color: #00aeef;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.cta a:hover {
+  background-color: #008ac1;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  color: #94a3b8;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+}
+
   </style>
 </head>
 <body>
   <header>
-    <h1>Proposta Exclusiva - Heina Cosméticos</h1>
-    <p>Seu negócio de beleza com presença digital de verdade</p>
-  </header>
-  <section>
-    <h2>O que está incluso no pacote?</h2>
-    <ul>
-      <li>Site catálogo profissional e responsivo</li>
-      <li>Criação de identidade visual (logo, paleta de cores, tipografia)</li>
-      <li>Configuração e otimização do Google Meu Negócio</li>
-      <li>LinkTree personalizado para Instagram e canais</li>
-      <li>Atualizações frequentes no Instagram e Google</li>
-      <li>Estratégias locais para atrair clientes da região</li>
-    </ul><div class="destaque">
-  <strong>✨ Por que agora?</strong>
+    <h1>Proposta Digital Personalizada - Heina Cosméticos</h1>
+    <p>Transforme sua presença online com profissionalismo e estratégia</p>
+  </header>  <main class="container"><section class="section">
+  <h2>🔹 Pacote Completo - Presença Digital Total</h2>
   <ul>
-    <li>Seus concorrentes já estão online — destaque-se AGORA</li>
-    <li>Clientes estão buscando produtos de beleza no Google e Instagram</li>
-    <li>Oferta sob medida para seu negócio — exclusiva e limitada</li>
+    <li>Criação de site catálogo responsivo e otimizado</li>
+    <li>Hospedagem e domínio personalizado gratuito por 1 ano</li>
+    <li>Google Meu Negócio e LinkTree configurados</li>
+    <li>Criação de identidade visual completa</li>
+    <li>Gestão de redes sociais (até 12 posts/mês)</li>
+    <li>Agendamento estratégico com engajamento</li>
+    <li>Calendário de conteúdo e posicionamento de marca</li>
   </ul>
-</div>
+  <div class="pricing-box">
+    <div class="price-original">de R$ 1.290,00</div>
+    <div class="price-final">R$ 890,00 à vista ou parcelado</div>
+  </div>
+  <div class="cta">
+    <a href="https://wa.me/27996163425?text=Quero+o+pacote+completo+para+minha+marca" target="_blank">✅ Quero o pacote completo</a>
+  </div>
+</section>
 
-<div class="oferta">
-  <p>Valor normal do pacote completo:</p>
-  <p class="preco-riscado">R$ 1.290,00</p>
-  <p class="preco-oferta">Hoje apenas: R$ 890,00 à vista 💥</p>
-  <a class="botao" href="https://wa.me/27996163425" target="_blank">✅ Fechar agora e garantir o desconto!</a>
-</div>
-
-<h2>BÔNUS EXCLUSIVO</h2>
-<div class="destaque">
-  <strong>🚀 Site Vitrine Profissional</strong>
+<section class="section">
+  <h2>🔸 Pacote Alternativo - Apenas Site Vitrine</h2>
   <ul>
-    <li>Layout completo com identidade da marca</li>
-    <li>Domínio personalizado (ex: www.sualoja.com.br)</li>
-    <li>Portfólio com seus serviços e produtos</li>
-    <li>Seção de contatos com WhatsApp integrado</li>
-    <li>Site no ar em até 5 dias úteis</li>
+    <li>Criação de site institucional/vitrine completo</li>
+    <li>Portfólio da marca com descrição, produtos e serviços</li>
+    <li>WhatsApp integrado + formulário de contato</li>
+    <li>Domínio personalizado (.com.br incluso)</li>
+    <li>Hospedagem gratuita por 1 ano</li>
+    <li>Design moderno com identidade da marca</li>
   </ul>
-  <p><strong>Valor exclusivo:</strong> de <span class="preco-riscado">R$ 899,00</span> por <span class="preco-oferta">R$ 499,00 à vista</span></p>
-  <a class="botao" href="https://wa.me/27996163425" target="_blank">✅ Quero meu site completo!</a>
-</div>
+  <div class="pricing-box">
+    <div class="price-original">de R$ 899,00</div>
+    <div class="price-final">R$ 499,00 à vista (oferta limitada)</div>
+  </div>
+  <div class="cta">
+    <a href="https://wa.me/27996163425?text=Quero+o+site+vitrine+completo+por+R$499" target="_blank">🚀 Garantir site vitrine por R$499</a>
+  </div>
+</section>
 
-  </section>  <footer>
-    © 2025 Rocha Soluções Digitais • Exclusivo, sob medida e com impacto real.
+<section class="section">
+  <h2>🎯 Por que investir agora?</h2>
+  <ul>
+    <li>Concorrência crescendo no digital</li>
+    <li>Mais clientes descobrindo negócios pelo Google e Instagram</li>
+    <li>Oferta limitada para quem fechar em até 24 horas</li>
+    <li>Vantagem competitiva garantida com posicionamento profissional</li>
+  </ul>
+</section>
+
+  </main>  <footer>
+    © 2025 Rocha Soluções Digitais • Exclusivo e sob medida para seu negócio
   </footer>
 </body>
 </html>
